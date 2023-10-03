@@ -1,0 +1,16 @@
+			TWO COMMON COLLABORATIVE WORK FLOWS:
+
+	1-SHARED REPOSITORY MODEL:
+
+For small projects where you are basically in the same physical space (e.g. lab with offices near each other).
+Be careful! You are cloning the main repository.
+Everyone has push and pull access to the central repo, so be careful and:
+Never commit to the master directly.
+Always do your work on a different branch from master.
+
+	2- FORK AND PULL MODEL:
+
+This is the model used by U of T Coders on its own website and repos.
+The “owner”/”Project Leader” of the upstream repo assigns rights to “Collaborators”
+Collaborators do not have push access to main (upstream) repo
+Project Lead accepts Pull Requests (PRs) fro collaborators, reviews them, then merges them into main repo.
