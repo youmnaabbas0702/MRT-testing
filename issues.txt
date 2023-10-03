@@ -1,0 +1,8 @@
+Some issues faced me working with git:
+1- author identity unknown:
+	solution:
+	git config --global user.email
+	git config --global user.email
+2- path of folders not reached:
+	solution:
+	copy the path of the folder from file explorer
